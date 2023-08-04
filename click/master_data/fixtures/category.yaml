@@ -1,0 +1,683 @@
+- model: "master_data.category"
+  pk: 1
+  fields:
+    name: Primary School
+
+- model: "master_data.category"
+  pk: 2
+  fields:
+    name: Primary School - YEAR 1
+
+- model: "master_data.category"
+  pk: 3
+  fields:
+    name: Primary School - YEAR 2
+
+- model: "master_data.category"
+  pk: 4
+  fields:
+    name: Primary School - YEAR 3
+
+- model: "master_data.category"
+  pk: 5
+  fields:
+    name: Primary School - YEAR 4
+
+- model: "master_data.category"
+  pk: 6
+  fields:
+    name: Primary School - YEAR 5
+
+- model: "master_data.category"
+  pk: 7
+  fields:
+    name: Primary School - YEAR 6
+
+- model: "master_data.category"
+  pk: 8
+  fields:
+    name: Primary School - DLP Book Teks
+
+- model: "master_data.category"
+  pk: 9
+  fields:
+    name: Secondary School
+
+- model: "master_data.category"
+  pk: 10
+  fields:
+    name: Secondary School - FORM 1
+
+- model: "master_data.category"
+  pk: 11
+  fields:
+    name: Secondary School - FORM 2
+
+- model: "master_data.category"
+  pk: 12
+  fields:
+    name: Secondary School - FORM 3
+
+- model: "master_data.category"
+  pk: 13
+  fields:
+    name: Secondary School - FORM 4
+
+- model: "master_data.category"
+  pk: 14
+  fields:
+    name: Secondary School - FORM 5
+
+- model: "master_data.category"
+  pk: 15
+  fields:
+    name: Secondary School - FORM 6
+
+- model: "master_data.category"
+  pk: 16
+  fields:
+    name: Secondary School - MPAV and Teknik
+
+- model: "master_data.category"
+  pk: 17
+  fields:
+    name: Secondary School - Kelas Peralihan
+
+- model: "master_data.category"
+  pk: 18
+  fields:
+    name: Secondary School - Exercise Book
+
+- model: "master_data.category"
+  pk: 19
+  fields:
+    name: Language
+
+- model: "master_data.category"
+  pk: 20
+  fields:
+    name: Novel
+
+- model: "master_data.category"
+  pk: 21
+  fields:
+    name: Short story
+
+- model: "master_data.category"
+  pk: 22
+  fields:
+    name: Religion
+
+- model: "master_data.category"
+  pk: 23
+  fields:
+    name: Dictionary
+
+- model: "master_data.category"
+  pk: 24
+  fields:
+    name: Science and Society
+
+- model: "master_data.category"
+  pk: 25
+  fields:
+    name: History and Figures
+
+- model: "master_data.category"
+  pk: 26
+  fields:
+    name: Sports and Recreation
+
+- model: "master_data.category"
+  pk: 27
+  fields:
+    name: Art
+
+- model: "master_data.category"
+  pk: 28
+  fields:
+    name: Health and Medicine
+
+- model: "master_data.category"
+  pk: 29
+  fields:
+    name: Magazines and Journals
+
+- model: "master_data.category"
+  pk: 30
+  fields:
+    name: Poetry and Drama
+
+- model: "master_data.category"
+  pk: 31
+  fields:
+    name: Glossary And Terms
+
+- model: "master_data.category"
+  pk: 32
+  fields:
+    name: Economics and Finance
+
+- model: "master_data.category"
+  pk: 33
+  fields:
+    name: Law and Constitution
+
+- model: "master_data.category"
+  pk: 34
+  fields:
+    name: Philosophy and Psychology
+
+- model: "master_data.category"
+  pk: 35
+  fields:
+    name: Science and technology
+
+- model: "master_data.category"
+  pk: 36
+  fields:
+    name: Literature, Essays, Criticism and Studies
+
+- model: "master_data.category"
+  pk: 37
+  fields:
+    name: Agriculture and Fisheries
+
+- model: "master_data.category"
+  pk: 38
+  fields:
+    name: General Works
+
+- model: "master_data.category"
+  pk: 39
+  fields:
+    name: Bibliography
+
+- model: "master_data.category"
+  pk: 40
+  fields:
+    name: Library Science
+
+- model: "master_data.category"
+  pk: 41
+  fields:
+    name: General Encyclopedias
+
+- model: "master_data.category"
+  pk: 42
+  fields:
+    name: General Societies
+
+- model: "master_data.category"
+  pk: 43
+  fields:
+    name: Ethics
+
+- model: "master_data.category"
+  pk: 44
+  fields:
+    name: Natural Theology
+
+- model: "master_data.category"
+  pk: 45
+  fields:
+    name: Mathematics
+
+- model: "master_data.category"
+  pk: 46
+  fields:
+    name: Astronomy
+
+- model: "master_data.category"
+  pk: 47
+  fields:
+    name: Physcics
+
+- model: "master_data.category"
+  pk: 48
+  fields:
+    name: Chemistry & Allied Sciences
+
+- model: "master_data.category"
+  pk: 49
+  fields:
+    name: Botanical Science
+
+- model: "master_data.category"
+  pk: 50
+  fields:
+    name: Zoological Science
+
+- model: "master_data.category"
+  pk: 51
+  fields:
+    name: Architecture
+
+- model: "master_data.category"
+  pk: 52
+  fields:
+    name: Painting
+
+- model: "master_data.category"
+  pk: 53
+  fields:
+    name: Music
+
+- model: "master_data.category"
+  pk: 54
+  fields:
+    name: Bibliography
+
+- model: "master_data.category"
+  pk: 55
+  fields:
+    name: Library Science
+
+- model: "master_data.category"
+  pk: 56
+  fields:
+    name: General Encyclopedia
+
+- model: "master_data.category"
+  pk: 57
+  fields:
+    name: Not Yet Reserved
+
+- model: "master_data.category"
+  pk: 58
+  fields:
+    name: Am Periodicals
+
+- model: "master_data.category"
+  pk: 59
+  fields:
+    name: General Organization
+
+- model: "master_data.category"
+  pk: 60
+  fields:
+    name: Journalism
+
+- model: "master_data.category"
+  pk: 61
+  fields:
+    name: Collection of General Works
+
+- model: "master_data.category"
+  pk: 62
+  fields:
+    name: Manuscripts and Rare Books
+
+- model: "master_data.category"
+  pk: 63
+  fields:
+    name: Existence
+
+- model: "master_data.category"
+  pk: 64
+  fields:
+    name: Knowledge, Reason, Purpose, Man
+
+- model: "master_data.category"
+  pk: 65
+  fields:
+    name: Study Normal and Magical Souls
+
+- model: "master_data.category"
+  pk: 66
+  fields:
+    name: Philosophical Opinion
+
+- model: "master_data.category"
+  pk: 67
+  fields:
+    name: Study the Soul
+
+- model: "master_data.category"
+  pk: 68
+  fields:
+    name: Mantic Science
+
+- model: "master_data.category"
+  pk: 69
+  fields:
+    name: Ethics
+
+- model: "master_data.category"
+  pk: 70
+  fields:
+    name: Eastern philosophy
+
+- model: "master_data.category"
+  pk: 71
+  fields:
+    name: Western Falafah
+
+- model: "master_data.category"
+  pk: 72
+  fields:
+    name: Divine Religion
+
+- model: "master_data.category"
+  pk: 73
+  fields:
+    name: The Bible
+
+- model: "master_data.category"
+  pk: 74
+  fields:
+    name: Fundamentals of Christian Doctrine
+
+- model: "master_data.category"
+  pk: 75
+  fields:
+    name: Morality and Christian Worship
+
+- model: "master_data.category"
+  pk: 76
+  fields:
+    name: Pastor's Affairs, Church Parish
+
+- model: "master_data.category"
+  pk: 77
+  fields:
+    name: Social Aspects and Christian Affairs
+
+- model: "master_data.category"
+  pk: 78
+  fields:
+    name: Church History and Geography
+
+- model: "master_data.category"
+  pk: 79
+  fields:
+    name: Christian Sects and Tribes
+
+- model: "master_data.category"
+  pk: 80
+  fields:
+    name: Other Religions
+
+- model: "master_data.category"
+  pk: 81
+  fields:
+    name: Statistics
+
+- model: "master_data.category"
+  pk: 82
+  fields:
+    name: Political Science
+
+- model: "master_data.category"
+  pk: 83
+  fields:
+    name: Economy
+
+- model: "master_data.category"
+  pk: 84
+  fields:
+    name: Law
+
+- model: "master_data.category"
+  pk: 85
+  fields:
+    name: Public Administration
+
+- model: "master_data.category"
+  pk: 86
+  fields:
+    name: Social Services
+
+- model: "master_data.category"
+  pk: 87
+  fields:
+    name: Education
+
+- model: "master_data.category"
+  pk: 88
+  fields:
+    name: Business and Organization
+
+- model: "master_data.category"
+  pk: 89
+  fields:
+    name: Customs and Folk Culture
+
+- model: "master_data.category"
+  pk: 90
+  fields:
+    name: Linguistics
+
+- model: "master_data.category"
+  pk: 91
+  fields:
+    name: English Language
+
+- model: "master_data.category"
+  pk: 92
+  fields:
+    name: German Language
+
+- model: "master_data.category"
+  pk: 93
+  fields:
+    name: French, Monaco
+
+- model: "master_data.category"
+  pk: 94
+  fields:
+    name: Italian, Romanian
+
+- model: "master_data.category"
+  pk: 95
+  fields:
+    name: Spanish and the Iberian Peninsula
+
+- model: "master_data.category"
+  pk: 96
+  fields:
+    name: Latin and Italian
+
+- model: "master_data.category"
+  pk: 97
+  fields:
+    name: Greek Language
+
+- model: "master_data.category"
+  pk: 98
+  fields:
+    name: Other Languages
+
+- model: "master_data.category"
+  pk: 99
+  fields:
+    name: Mathematics
+
+- model: "master_data.category"
+  pk: 100
+  fields:
+    name: Astronomy
+
+- model: "master_data.category"
+  pk: 101
+  fields:
+    name: Physics
+
+- model: "master_data.category"
+  pk: 102
+  fields:
+    name: Chemistry
+
+- model: "master_data.category"
+  pk: 103
+  fields:
+    name: Earth Science
+
+- model: "master_data.category"
+  pk: 104
+  fields:
+    name: Fossil Science
+
+- model: "master_data.category"
+  pk: 105
+  fields:
+    name: Life Science
+
+- model: "master_data.category"
+  pk: 106
+  fields:
+    name: Plant Science
+- model: "master_data.category"
+  pk: 107
+  fields:
+    name: Animal Science
+- model: "master_data.category"
+  pk: 108
+  fields:
+    name: Medical Science
+- model: "master_data.category"
+  pk: 109
+  fields:
+    name: Engineering Science
+- model: "master_data.category"
+  pk: 110
+  fields:
+    name: Agriculture
+- model: "master_data.category"
+  pk: 111
+  fields:
+    name: Household Science
+- model: "master_data.category"
+  pk: 112
+  fields:
+    name: Management Services
+- model: "master_data.category"
+  pk: 113
+  fields:
+    name: Chemical Technology
+- model: "master_data.category"
+  pk: 114
+  fields:
+    name: Chemical Industry Results
+- model: "master_data.category"
+  pk: 115
+  fields:
+    name: Other Factory Products
+
+- model: "master_data.category"
+  pk: 116
+  fields:
+    name: Building
+- model: "master_data.category"
+  pk: 117
+  fields:
+    name: Landscape Art
+- model: "master_data.category"
+  pk: 118
+  fields:
+    name: Architecture
+- model: "master_data.category"
+  pk: 119
+  fields:
+    name: Sculpture
+- model: "master_data.category"
+  pk: 120
+  fields:
+    name: Painting and Decorative Arts
+- model: "master_data.category"
+  pk: 121
+  fields:
+    name: Painting and Paint
+- model: "master_data.category"
+  pk: 122
+  fields:
+    name: Graphic Arts
+- model: "master_data.category"
+  pk: 123
+  fields:
+    name: Photo Art
+- model: "master_data.category"
+  pk: 124
+  fields:
+    name: Music
+- model: "master_data.category"
+  pk: 125
+  fields:
+    name: Entertainment and Performing Arts
+
+- model: "master_data.category"
+  pk: 126
+  fields:
+    name: Sastera Amerika
+- model: "master_data.category"
+  pk: 127
+  fields:
+    name: English literature
+- model: "master_data.category"
+  pk: 128
+  fields:
+    name: Sastera Jerman
+- model: "master_data.category"
+  pk: 129
+  fields:
+    name: French literature
+- model: "master_data.category"
+  pk: 130
+  fields:
+    name: Italian, Romanian literature
+- model: "master_data.category"
+  pk: 131
+  fields:
+    name: Spanish, Portuguese literature
+- model: "master_data.category"
+  pk: 132
+  fields:
+    name: Latin Literature, Italian
+- model: "master_data.category"
+  pk: 133
+  fields:
+    name: Greek literature
+- model: "master_data.category"
+  pk: 134
+  fields:
+    name: Literature in Other Languages
+- model: "master_data.category"
+  pk: 135
+  fields:
+    name: Geography and Tours
+- model: "master_data.category"
+  pk: 136
+  fields:
+    name: Biography
+- model: "master_data.category"
+  pk: 137
+  fields:
+    name: General History of the Ancient World
+- model: "master_data.category"
+  pk: 138
+  fields:
+    name: Europe
+- model: "master_data.category"
+  pk: 139
+  fields:
+    name: Asia
+- model: "master_data.category"
+  pk: 140
+  fields:
+    name: Africa
+- model: "master_data.category"
+  pk: 141
+  fields:
+    name: North America
+- model: "master_data.category"
+  pk: 142
+  fields:
+    name: South America
+- model: "master_data.category"
+  pk: 143
+  fields:
+    name: Part of Another World
+- model: "master_data.category"
+  pk: 144
+  fields:
+    name: Sport Science

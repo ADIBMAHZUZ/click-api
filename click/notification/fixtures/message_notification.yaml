@@ -1,0 +1,195 @@
+- model: "notification.MessageContent"
+  pk: 1
+  fields:
+    message_type: request_storage
+    description: Publisher request buy storage
+    message_to_producer: You has just requested to increase more data storage of
+    message_to_receiver: has just requested to increase more data storage of
+    message_to_producer_malay: Anda baru sahaja meminta untuk menambah lebih banyak penyimpanan data sebanyak
+    message_to_receiver_malay: baru sahaja meminta untuk menambah lebih banyak penyimpanan data sebanyak
+
+- model: "notification.MessageContent"
+  pk: 2
+  fields:
+    message_type: confirm_storage
+    description: Admin accept upgrade storage
+    message_to_producer: You have just upgraded data storage for
+    message_to_receiver: Your data storage upgrade request has just been accepted.
+    message_to_producer_malay: Anda baru sahaja menaik taraf penyimpanan data untuk
+    message_to_receiver_malay: Permintaan peningkatan simpanan data anda baru sahaja diterima.
+
+- model: "notification.MessageContent"
+  pk: 3
+  fields:
+    message_type: confirm_storage
+    description: Admin reject upgrade storage
+    message_to_producer: You have just rejected to upgrade data storage for
+    message_to_receiver: Your data storage upgrade request has just been rejected.
+    message_to_producer_malay: Anda baru sahaja menolak untuk meningkatkan simpanan data untuk
+    message_to_receiver_malay: Permintaan peningkatan simpanan data anda baru sahaja ditolak.
+
+- model: "notification.MessageContent"
+  pk: 4
+  fields:
+    message_type: request_media
+    description: Library request buy media
+    message_to_receiver: has just requested to buy
+    message_to_receiver_malay: baru sahaja meminta untuk membeli
+
+- model: "notification.MessageContent"
+  pk: 5
+  fields:
+    message_type: confirm_media
+    description: Publisher accept purchase media
+    message_to_producer: You have just accepted new media purchase for Library
+    message_to_receiver: has successfully purchased from
+    message_to_producer_malay: Anda baru sahaja menerima pembelian media baru untuk
+    message_to_receiver_malay: telah berjaya membeli dari
+
+- model: "notification.MessageContent"
+  pk: 6
+  fields:
+    message_type: reject_media
+    description: Publisher reject purchase media
+    message_to_producer: You have just rejected new media purchase for Library
+    message_to_producer_malay: Anda baru sahaja menolak pembelian media baru untuk Perpustakaan
+    message_to_receiver: has rejected your purchased request for
+    message_to_receiver_malay: telah menolak permintaan yang anda beli untuk
+
+- model: "notification.MessageContent"
+  pk: 7
+  fields:
+    message_type: confirm_upload
+    description: Publisher upload new media
+    message_to_producer: You has just uploaded new media
+    message_to_producer_malay: Anda baru sahaja memuat naik media baru
+
+- model: "notification.MessageContent"
+  pk: 8
+  fields:
+    message_type: confirm_upload
+    description: Library upload new learning material
+    message_to_receiver: has just uploaded new learning material
+    message_to_receiver_malay: baru sahaja memuat naik bahan pembelajaran baru
+
+- model: "notification.MessageContent"
+  pk: 9
+  fields:
+    message_type: confirm_upload
+    description: Teacher upload new teacher notes
+    message_to_receiver: has just uploaded new teacher notes
+    message_to_receiver_malay: baru sahaja memuat naik nota guru baru
+
+- model: "notification.MessageContent"
+  pk: 10
+  fields:
+    message_type: confirm_upload
+    description: Library upload new student content
+    message_to_receiver: has just uploaded new student content
+    message_to_receiver_malay: baru sahaja memuat naik kandungan pelajar baru
+
+- model: "notification.MessageContent"
+  pk: 11
+  fields:
+    message_type: confirm_upload
+    description: Library upload new school news board
+    message_to_receiver: has just uploaded new school news board
+    message_to_receiver_malay: baru sahaja memuat naik papan berita sekolah baru
+
+- model: "notification.MessageContent"
+  pk: 12
+  fields:
+    message_type: confirm_upload
+    description: Library upload new school history
+    message_to_receiver: has just uploaded new school history
+    message_to_receiver_malay: baru sahaja memuat naik sejarah sekolah baru
+- model: "notification.MessageContent"
+  pk: 13
+  fields:
+    message_type: request_delete_sub
+    description: Librarian request delete a subscriber
+    message_to_producer: You has just requested to delete subscriber
+    message_to_receiver: has just requested to delete subscriber
+    message_to_producer_malay: Anda baru sahaja meminta untuk memadamkan pelanggan
+    message_to_receiver_malay: baru sahaja meminta untuk memadamkan pelanggan
+- model: "notification.MessageContent"
+  pk: 14
+  fields:
+    message_type: request_delete_tea
+    description: Librarian request delete a library
+    message_to_producer: You has just requested to delete library
+    message_to_receiver: has just requested to delete library
+    message_to_producer_malay: Anda baru sahaja meminta untuk memadamkan pustaka
+    message_to_receiver_malay: baru sahaja meminta untuk memadamkan pustaka
+- model: "notification.MessageContent"
+  pk: 15
+  fields:
+    message_type: confirm_delete_sub
+    description: Approve delete a subscriber
+    message_to_receiver: has been permanently deleted.
+    message_to_receiver_malay: telah dipadamkan secara kekal.
+
+- model: "notification.MessageContent"
+  pk: 16
+  fields:
+    message_type: confirm_delete_tea
+    description: Approve delete a teacher
+    message_to_receiver: has been permanently deleted.
+    message_to_receiver_malay: telah dipadamkan secara kekal.
+
+- model: "notification.MessageContent"
+  pk: 17
+  fields:
+    message_type: confirm_delete_sub
+    description: Reject delete a subscriber
+    message_to_receiver: has been rejected to delete.
+    message_to_receiver_malay: telah ditolak untuk dipadam.
+
+- model: "notification.MessageContent"
+  pk: 18
+  fields:
+    message_type: confirm_delete_tea
+    description: Reject delete a teacher
+    message_to_receiver: has been rejected to delete.
+    message_to_receiver_malay: telah ditolak untuk dipadam.
+
+- model: "notification.MessageContent"
+  pk: 19
+  fields:
+    message_type: send_quotation
+    description: Send quotation to librarian
+    message_to_receiver: has been received a quotation from publisher
+    message_to_receiver_malay: telah menerima sebut harga daripada penerbit
+
+- model: "notification.MessageContent"
+  pk: 20
+  fields:
+    message_type: renew_media
+    description: Renew media
+    message_to_receiver: has been requested to renew
+    message_to_receiver_malay: telah diminta untuk memperbaharui
+
+- model: "notification.MessageContent"
+  pk: 21
+  fields:
+    message_type: confirm_renew_media
+    description: Renew media
+    message_to_producer: You have just accepted renew media purchase for Library
+    message_to_receiver: has been renewed
+    message_to_receiver_malay: telah diperbaharui
+
+- model: "notification.MessageContent"
+  pk: 22
+  fields:
+    message_type: renew_media
+    description: Renew media
+    message_to_producer: You have just rejected renew media purchase for Library
+    message_to_receiver: has been rejected to renew
+    message_to_receiver_malay: telah ditolak untuk memperbaharui
+- model: "notification.MessageContent"
+  pk: 23
+  fields:
+    message_type: expired_media
+    description: expired media
+    message_to_receiver: will be expired after
+    message_to_receiver_malay: akan tamat tempoh selepas

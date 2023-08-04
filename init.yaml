@@ -1,0 +1,172 @@
+- model: click.users.User
+  pk: 1
+  fields:
+    password: pbkdf2_sha256$180000$9XYqWDU7MApe$TSO8XnjifBOFfXm7AlJ6WO2RnvmcaoDohBTM/JnvsOM=
+    username: admin
+    is_superuser: false
+    created: 2020-03-21 03:59:41.302092+00
+    modified: 2020-03-21 03:59:41.302092+00
+    is_staff: true
+    is_active: true
+    email: admin@nng.bz
+    user_type: admin
+    activate_token: f7e24f62a226a6bc6a29a0b1fd07e42488a327b1
+    activate_time: null
+    first_name: Admin
+    last_name: 
+
+- model: click.users.User
+  pk: 2
+  fields:
+    password: pbkdf2_sha256$180000$9XYqWDU7MApe$TSO8XnjifBOFfXm7AlJ6WO2RnvmcaoDohBTM/JnvsOM=
+    username: student1
+    is_superuser: false
+    created: 2020-03-21 03:59:41.302092+00
+    modified: 2020-03-21 03:59:41.302092+00
+    is_staff: true
+    is_active: true
+    email: student1@nng.bz
+    user_type: subscriber
+    activate_token: f7e24f62a226a6bc6a29a0b1fd07e42488a327b1
+    activate_time: null
+    first_name: Student
+    last_name: One
+
+- model: click.users.User
+  pk: 3
+  fields:
+    password: pbkdf2_sha256$180000$9XYqWDU7MApe$TSO8XnjifBOFfXm7AlJ6WO2RnvmcaoDohBTM/JnvsOM=
+    username: student2
+    is_superuser: false
+    created: 2020-03-21 03:59:41.302092+00
+    modified: 2020-03-21 03:59:41.302092+00
+    is_staff: true
+    is_active: true
+    email: student2@nng.bz
+    user_type: subscriber
+    activate_token: f7e24f62a226a6bc6a29a0b1fd07e42488a327b1
+    activate_time: null
+    first_name: Student
+    last_name: Two
+
+- model: click.users.User
+  pk: 4
+  fields:
+    password: pbkdf2_sha256$180000$9XYqWDU7MApe$TSO8XnjifBOFfXm7AlJ6WO2RnvmcaoDohBTM/JnvsOM=
+    username: jerry
+    is_superuser: false
+    created: 2020-03-21 03:59:41.302092+00
+    modified: 2020-03-21 03:59:41.302092+00
+    is_staff: true
+    is_active: true
+    email: admin@nng.bz
+    user_type: admin
+    activate_token: f7e24f62a226a6bc6a29a0b1fd07e42488a327b1
+    activate_time: null
+    first_name: Admin
+    last_name: 
+
+- model: click.users.User
+  pk: 5
+  fields:
+    password: pbkdf2_sha256$180000$9XYqWDU7MApe$TSO8XnjifBOFfXm7AlJ6WO2RnvmcaoDohBTM/JnvsOM=
+    username: tester2
+    is_superuser: false
+    created: 2020-03-21 03:59:41.302092+00
+    modified: 2020-03-21 03:59:41.302092+00
+    is_staff: true
+    is_active: true
+    email: admin@nng.bz
+    user_type: admin
+    activate_token: f7e24f62a226a6bc6a29a0b1fd07e42488a327b1
+    activate_time: null
+    first_name: Admin
+    last_name: 
+    
+- model: click.users.User
+  pk: 6
+  fields:
+    password: pbkdf2_sha256$180000$9XYqWDU7MApe$TSO8XnjifBOFfXm7AlJ6WO2RnvmcaoDohBTM/JnvsOM=
+    username: thanhtran
+    is_superuser: false
+    created: 2020-03-21 03:59:41.302092+00
+    modified: 2020-03-21 03:59:41.302092+00
+    is_staff: true
+    is_active: true
+    email: admin@nng.bz
+    user_type: admin
+    activate_token: f7e24f62a226a6bc6a29a0b1fd07e42488a327b1
+    activate_time: null
+    first_name: Admin
+    last_name: 
+
+- model: click.users.User
+  pk: 7
+  fields:
+    password: pbkdf2_sha256$180000$9XYqWDU7MApe$TSO8XnjifBOFfXm7AlJ6WO2RnvmcaoDohBTM/JnvsOM=
+    username: vunguyen
+    is_superuser: false
+    created: 2020-03-21 03:59:41.302092+00
+    modified: 2020-03-21 03:59:41.302092+00
+    is_staff: true
+    is_active: true
+    email: admin@nng.bz
+    user_type: admin
+    activate_token: f7e24f62a226a6bc6a29a0b1fd07e42488a327b1
+    activate_time: null
+    first_name: Admin
+    last_name: 
+
+- model: click.users.User
+  pk: 7
+  fields:
+    password: pbkdf2_sha256$180000$9XYqWDU7MApe$TSO8XnjifBOFfXm7AlJ6WO2RnvmcaoDohBTM/JnvsOM=
+    username: hoanguyen
+    is_superuser: false
+    created: 2020-03-21 03:59:41.302092+00
+    modified: 2020-03-21 03:59:41.302092+00
+    is_staff: true
+    is_active: true
+    email: admin@nng.bz
+    user_type: admin
+    activate_token: f7e24f62a226a6bc6a29a0b1fd07e42488a327b1
+    activate_time: null
+    first_name: Admin
+    last_name: 
+
+- model: click.users.User
+  pk: 8
+  fields:
+    password: pbkdf2_sha256$180000$9XYqWDU7MApe$TSO8XnjifBOFfXm7AlJ6WO2RnvmcaoDohBTM/JnvsOM=
+    username: trungle
+    is_superuser: false
+    created: 2020-03-21 03:59:41.302092+00
+    modified: 2020-03-21 03:59:41.302092+00
+    is_staff: true
+    is_active: true
+    email: admin@nng.bz
+    user_type: admin
+    activate_token: f7e24f62a226a6bc6a29a0b1fd07e42488a327b1
+    activate_time: null
+    first_name: Admin
+    last_name: 
+
+
+- model: click.users.Library
+  pk: 1
+  fields:
+    first_name: John
+    last_name: Lennon
+
+- model: click.users.Librarian
+  pk: 1
+  fields:
+    first_name: John
+    last_name: Lennon
+
+- model: click.users.Subscriber
+  pk: 1
+  fields:
+    first_name: John
+    last_name: Lennon
+

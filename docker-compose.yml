@@ -1,0 +1,86 @@
+version: '3'
+
+services:
+
+    core:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        image: click-core
+        container_name: click-core
+        restart: always
+        tty: true
+        environment:
+            SERVER_URL: https://click.nng.bz
+            SENDGRID_API_KEY: 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
+        volumes:
+            - ./:/click-api
+        ports:
+            - "8000:8000"
+        depends_on:
+            - db
+            - rabbitmq
+
+        networks:
+            - app-network
+
+    db:
+        image: postgres:12.0-alpine
+        container_name: click-db
+        restart: always
+        tty: true
+        ports:
+            - "8432:5432"
+        environment:
+            POSTGRES_USER: postgres
+            POSTGRES_PASSWORD: postgres
+            POSTGRES_DB: click-docker
+        volumes:
+            - click-db:/var/lib/postgresql/data
+        networks:
+            - app-network
+
+    rabbitmq:
+        image: rabbitmq:3.7-alpine
+        container_name: rabbitmq
+        restart: always
+        tty: true
+        networks:
+            - app-network
+
+    celery-worker:
+        # command: celery -A click worker -l info
+        command: watchmedo auto-restart -- celery worker -l info -A click
+        container_name: celery-worker
+        depends_on:
+            - core
+            - db
+            - rabbitmq
+        image: click-core
+        volumes:
+            - ./:/click-api
+        networks:
+            - app-network
+
+    celery-beat:
+        command: celery -A click beat --loglevel=info --pidfile=/tmp/celeryd.pid
+        container_name: celery-beat
+        depends_on:
+            - celery-worker
+        image: click-core
+        volumes:
+            - ./:/click-api
+        networks:
+            - app-network
+
+
+
+#Docker Networks
+networks:
+    app-network:
+        driver: bridge
+
+#Volumes
+volumes:
+    click-db:
+        driver: local
